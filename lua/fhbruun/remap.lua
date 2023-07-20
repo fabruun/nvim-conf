@@ -48,3 +48,9 @@ vim.keymap.set("n", "<leader><leader>", function()
 end)
 
 vim.keymap.set("n", "<leader>cc", ":make<CR>", { silent = true })
+
+vim.keymap.set("n", "<leader>md", vim.cmd.MarkdownPreview)
+vim.keymap.set("n", "<leader>mds", vim.cmd.MarkdownPreviewStop)
+vim.keymap.set("n", "<leader>mdt", vim.cmd.MarkdownPreviewToggle)
+
+vim.keymap.set("n", "<leader>gg", ":!~/.config/git/git-guud.sh<CR>")

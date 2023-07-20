@@ -77,4 +77,6 @@ return require('packer').startup(function(use)
 
     use 'mfussenegger/nvim-dap'
     use 'phpstan/vim-phpstan'
+
+    use('iamcco/markdown-preview.nvim', {run = 'cd app && yarn install'})
 end)

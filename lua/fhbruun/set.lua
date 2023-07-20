@@ -21,6 +21,13 @@ vim.opt.updatetime = 50
 vim.opt.colorcolumn = "80"
 vim.opt.undofile = true
 
+vim.g.mkdp_auto_start = 1
+vim.g.mkdp_auto_close = 1
+vim.g.mkdp_refresh_slow = 1
+vim.g.mkdp_page_title = '${name}'
+vim.g.mkdp_filetypes = {"markdown"}
+vim.g.mkdp_theme = 'dark'
+
 -- PHPStan
 vim.g.phpstan_analyse_level = 4
 

@@ -6,7 +6,9 @@ lsp.ensure_installed({
   'eslint',
   "phpactor",
   "rust_analyzer",
-  "clangd"
+  "clangd",
+  "bashls",
+  "marksman"
 })
 
 local cmp = require('cmp')
