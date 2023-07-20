@@ -1,0 +1,6 @@
+vim.keymap.set("n", "<leader>o", vim.cmd.ObsidianOpen)
+vim.keymap.set("n", "<leader>on", vim.cmd.ObsidianNew)
+vim.keymap.set("n", "<leader>oc", vim.cmd.ObsidianCheck)
+vim.keymap.set("n", "<leader>ol", vim.cmd.ObsidianLink)
+vim.keymap.set("n", "<leader>oln", vim.cmd.ObsidianNewLink)
+vim.keymap.set("n", "<leader>of", vim.cmd.ObsidianSearch)
